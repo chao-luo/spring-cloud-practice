@@ -17,6 +17,7 @@
 
     <modules>
         <module>dependencies</module>
+        <module>spring-boot-actuator</module>
     </modules>
 
 </project>
