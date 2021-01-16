@@ -9,9 +9,8 @@
         <relativePath>./dependencies/pom.xml</relativePath>
     </parent>
 
-	<groupId>com.springcloud.practice</groupId>
-	<artifactId>spring-boot-actuator</artifactId>
-	<name>spring-boot-actuator</name>
+    <artifactId>spring-boot-actuator-practice</artifactId>
+	<name>spring-boot-actuator-practice</name>
 	<description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
 
@@ -33,13 +32,6 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+
 
 </project>
