@@ -1,9 +1,35 @@
+spring:
+  profiles:
+    active: c1
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+---
+spring:
+  application:
+    name: eureka-client
+  config:
+    activate:
+      on-profile: c1
 server:
   port: 8762
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
+
+---
 spring:
   application:
     name: eureka-client
+  config:
+    activate:
+      on-profile: c2
+server:
+  port: 8763
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
