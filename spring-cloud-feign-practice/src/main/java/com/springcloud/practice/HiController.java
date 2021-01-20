@@ -11,7 +11,7 @@ public class HiController {
     @Autowired
     HiService hiService;
 
-    @GetMapping
+    @GetMapping("/hi")
     public String sayHi(@RequestParam(defaultValue = "feign", required = false)String name) {
         return hiService.sayHi(name);
     }
