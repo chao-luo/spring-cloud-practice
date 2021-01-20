@@ -10,9 +10,7 @@ management:
 spring:
   application:
     name: eureka-client
-  config:
-    activate:
-      on-profile: c1
+  profiles: c1
 server:
   port: 8762
 eureka:
@@ -24,9 +22,7 @@ eureka:
 spring:
   application:
     name: eureka-client
-  config:
-    activate:
-      on-profile: c2
+  profiles: c2
 server:
   port: 8763
 eureka:
