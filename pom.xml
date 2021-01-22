@@ -21,6 +21,7 @@
         <module>spring-cloud-eureka-practice</module>
         <module>spring-cloud-ribbon-practice</module>
         <module>spring-cloud-feign-practice</module>
+        <module>spring-cloud-zuul-practice</module>
     </modules>
 
 </project>
