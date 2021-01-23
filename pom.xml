@@ -22,6 +22,7 @@
         <module>spring-cloud-ribbon-practice</module>
         <module>spring-cloud-feign-practice</module>
         <module>spring-cloud-zuul-practice</module>
+        <module>spring-cloud-gateway-practice</module>
     </modules>
 
 </project>
