@@ -25,6 +25,8 @@
         <module>spring-cloud-gateway-practice</module>
         <module>consul-provider-practice</module>
         <module>consul-consumer-practice</module>
+        <module>spring-cloud-config-server-practice</module>
+        <module>spring-cloud-config-client-practice</module>
     </modules>
 
 </project>
