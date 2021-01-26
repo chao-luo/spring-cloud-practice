@@ -23,6 +23,8 @@
         <module>spring-cloud-feign-practice</module>
         <module>spring-cloud-zuul-practice</module>
         <module>spring-cloud-gateway-practice</module>
+        <module>consul-provider-practice</module>
+        <module>consul-consumer-practice</module>
     </modules>
 
 </project>
