@@ -12,8 +12,16 @@ public class HelloController {
     @Value("${server.port}")
     String port;
 
+    @Value("${foo.bar}")
+    String bar;
+
     @GetMapping("/hi")
     public String hi(@RequestParam String name) {
         return "hi " + name + ", port: " + port;
+    }
+
+    @GetMapping("/foo")
+    public String foo() {
+        return bar;
     }
 }
