@@ -27,6 +27,8 @@
         <module>consul-consumer-practice</module>
         <module>spring-cloud-config-server-practice</module>
         <module>spring-cloud-config-client-practice</module>
+        <module>spring-boot-admin-server-practice</module>
+        <module>spring-boot-admin-client-practice</module>
     </modules>
 
 </project>
